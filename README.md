@@ -1,11 +1,33 @@
+# Tanzim Ahmed Personal Portfolio
 
-  # Modern Personal Portfolio Website
+This is a modern personal portfolio website built to showcase my professional experience, skills, and projects.
 
-  This is a code bundle for Modern Personal Portfolio Website. The original project is available at https://www.figma.com/design/FbxCx1he0BnAey6meL1r9L/Modern-Personal-Portfolio-Website.
+## 🚀 Tech Stack
 
-  ## Running the code
+- **Framework:** React
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Build Tool:** Vite
+- **Package Manager:** pnpm
 
-  Run `npm i` to install the dependencies.
+## 📦 How to Run Locally
 
-  Run `npm run dev` to start the development server.
-  
+1. Clone this repository: `git clone https://github.com/TanzimAhmedUtsho/tanzim-ahmed-portfolio.git`
+2. Navigate to the project directory: `cd tanzim-ahmed-portfolio`
+3. Install dependencies: `pnpm install`
+4. Start the development server: `pnpm dev`
+
+## ✨ Features
+
+- Fully responsive design
+- Smooth scroll animations
+- Modern UI/UX using Tailwind CSS
+
+## 🌐 Live Demo
+
+[Insert your Vercel or Netlify live link here]
+
+## 🤝 Connect with Me
+
+- LinkedIn: [Tanzim Ahmed ]
+- Email: [utshotanzim@gmail.com]
