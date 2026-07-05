@@ -1,11 +1,6 @@
 import Navbar from "../components/layout/Navbar";
 import Hero from "../components/sections/Hero";
 import About from "../components/sections/About";
-import Skills from "../components/sections/Skills";
-import Projects from "../components/sections/Projects";
-import Journey from "../components/sections/Journey";
-import Business from "../components/sections/Business";
-import MyStory from "../components/sections/MyStory";
 import Contact from "../components/sections/Contact";
 import Footer from "../components/layout/Footer";
 
@@ -19,15 +14,8 @@ export default function App() {
       }}
     >
       <Navbar />
-      <div id="home">
-        <Hero />
-      </div>
+      <Hero />
       <About />
-      <Skills />
-      <Projects />
-      <Journey />
-      <Business />
-      <MyStory />
       <Contact />
       <Footer />
     </div>

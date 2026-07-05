@@ -21,20 +21,20 @@ export default function Contact() {
     {
       icon: <Mail size={18} />,
       label: "Email",
-      value: "tanzim.utsho@example.com",
-      href: "mailto:tanzim.utsho@example.com",
+      value: "utshotanzim@gmail.com",
+      href: "mailto:utshotanzim@gmail.com",
     },
     {
       icon: <Linkedin size={18} />,
       label: "LinkedIn",
-      value: "linkedin.com/in/tanzim-utsho",
-      href: "#",
+      value: "linkedin.com",
+      href: "https://www.linkedin.com/in/tanzim-ahmed-utsho-36a535211/",
     },
     {
       icon: <Github size={18} />,
       label: "GitHub",
-      value: "github.com/tanzim-utsho",
-      href: "#",
+      value: "github.com",
+      href: "https://github.com/tanzimAhmedUtsho",
     },
     {
       icon: <MapPin size={18} />,
