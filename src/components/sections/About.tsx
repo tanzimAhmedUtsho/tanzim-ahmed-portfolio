@@ -8,7 +8,7 @@ export default function About() {
   const aboutInView = useInView(aboutRef, { once: true, margin: "-80px" });
 
   const infoItems = [
-    { label: "University", value: "Daffodil Intl. University" },
+    { label: "University", value: "Daffodil International University" },
     { label: "Degree", value: "BSc in CSE" },
     { label: "Location", value: "Dhaka, Bangladesh" },
     { label: "Status", value: "Open to Work" },
@@ -33,7 +33,7 @@ export default function About() {
           >
             <div className="relative rounded-3xl overflow-hidden aspect-[4/5] max-w-[360px] mx-auto md:mx-0 bg-slate-900">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=625&fit=crop&auto=format"
+                src="https://res.cloudinary.com/djdrghfqs/image/upload/v1781008731/Tanzim_Ahmed_korh5a.jpg"
                 alt="Tanzim Ahmed Utsho"
                 className="w-full h-full object-cover opacity-90"
               />
