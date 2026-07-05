@@ -9,13 +9,13 @@ import {
 import { NavLink, Skill, Project, TimelineItem } from "./types";
 
 export const NAV_LINKS: NavLink[] = [
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
-  { label: "Projects", href: "#projects" },
-  { label: "Journey", href: "#journey" },
-  { label: "Story", href: "#story" },
-  { label: "Venture", href: "#venture" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/about" },
+  { label: "Skills", href: "/skills" },
+  { label: "Projects", href: "/projects" },
+  { label: "Journey", href: "/journey" },
+  { label: "Story", href: "/story" },
+  { label: "Venture", href: "/venture" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const TITLES: string[] = [
