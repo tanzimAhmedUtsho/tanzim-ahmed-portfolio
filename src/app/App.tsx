@@ -5,6 +5,7 @@ import Skills from "../components/sections/Skills";
 import Projects from "../components/sections/Projects";
 import Journey from "../components/sections/Journey";
 import Business from "../components/sections/Business";
+import MyStory from "../components/sections/MyStory";
 import Contact from "../components/sections/Contact";
 import Footer from "../components/layout/Footer";
 
@@ -18,12 +19,15 @@ export default function App() {
       }}
     >
       <Navbar />
-      <Hero />
+      <div id="home">
+        <Hero />
+      </div>
       <About />
       <Skills />
       <Projects />
       <Journey />
       <Business />
+      <MyStory />
       <Contact />
       <Footer />
     </div>
