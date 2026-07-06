@@ -74,7 +74,7 @@ export const PROJECTS: Project[] = [
 
 export const TIMELINE: TimelineItem[] = [
   {
-    year: "2021",
+    year: "2018",
     title: "Started University",
     description:
       "Enrolled in BSc Computer Science & Engineering at Daffodil International University — chose CSE with a clear goal: build things on the web.",

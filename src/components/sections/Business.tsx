@@ -51,6 +51,7 @@ export default function Business() {
   ];
 
   const industries = ["Activewear", "Leather Goods", "Accessories", "Fashion & Lifestyle"];
+  const companyLogo = "/company-logo.png"; // Replace with your logo path
 
   return (
     <section id="venture" className="py-32 px-6 relative overflow-hidden">
@@ -96,20 +97,12 @@ export default function Business() {
             <div className="relative rounded-3xl overflow-hidden p-8 border border-white/[0.08] bg-white/[0.03]">
               {/* Monogram + name row */}
               <div className="flex items-center gap-5 mb-7">
-                <div
-                  className="w-16 h-16 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-xl"
-                  style={{
-                    background:
-                      "linear-gradient(135deg, #38bdf8, #0ea5e9, #06b6d4)",
-                    boxShadow: "0 0 40px rgba(56,189,248,0.25)",
-                  }}
-                >
-                  <span
-                    className="text-xl font-bold text-[#1a0e00] tracking-tighter select-none"
-                    style={{ fontFamily: "'Sora', sans-serif" }}
-                  >
-                    H&amp;H
-                  </span>
+                <div className="w-16 h-16 rounded-full overflow-hidden flex items-center justify-center flex-shrink-0 shadow-xl bg-slate-950 border border-white/10">
+                  <img
+                    src="https://res.cloudinary.com/djdrghfqs/image/upload/v1783235203/facebook_profile_prbbd9.png"
+                    alt="Hide n Hype logo"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3
@@ -124,7 +117,7 @@ export default function Business() {
                     </span>
                     <span className="w-1 h-1 rounded-full bg-white/20" />
                     <span className="text-xs text-white/40 font-mono">
-                      Est. 2025
+                      Est. 2026
                     </span>
                   </div>
                 </div>
