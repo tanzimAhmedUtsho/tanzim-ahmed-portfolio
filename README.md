@@ -25,7 +25,7 @@ This is a modern personal portfolio website built to showcase my professional ex
 
 ## 🌐 Live Demo
 
-[Insert your Vercel or Netlify live link here]
+[tanzim-ahmed-portfolio.vercel.app]
 
 ## 🤝 Connect with Me
 
