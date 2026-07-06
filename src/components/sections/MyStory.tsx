@@ -203,9 +203,9 @@ export default function MyStory() {
           transition={{ duration: 0.8 }}
           className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-950/70 px-6 py-10 shadow-[0_30px_120px_rgba(2,8,23,0.55)] backdrop-blur-2xl sm:px-8 lg:px-12 lg:py-16"
         >
-          <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(96,165,250,0.18),rgba(6,182,212,0.1),transparent)]" />
-          <div className="absolute -top-8 left-10 h-28 w-28 rounded-full bg-cyan-400/20 blur-3xl" />
-          <div className="absolute bottom-0 right-10 h-36 w-36 rounded-full bg-blue-500/20 blur-3xl" />
+          <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(96,165,250,0.12),rgba(6,182,212,0.06),transparent)]" />
+          <div className="absolute -top-8 left-10 h-28 w-28 rounded-full bg-cyan-400/15 blur-3xl" />
+          <div className="absolute bottom-0 right-10 h-36 w-36 rounded-full bg-blue-500/15 blur-3xl" />
 
           <div className="relative z-10 flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-3xl space-y-6">
@@ -229,11 +229,8 @@ export default function MyStory() {
               </div>
             </div>
             <div className="flex flex-wrap gap-3 lg:justify-end">
-              <Button asChild className="rounded-full border border-white/15 bg-white/10 px-5 py-3 text-sm text-white hover:bg-white/20">
+              <Button variant="outline" size="lg" asChild className="rounded-full px-5 py-3 text-sm">
                 <a href="#story-timeline">Explore My Journey</a>
-              </Button>
-              <Button asChild className="rounded-full bg-gradient-to-r from-blue-500 via-cyan-500 to-sky-400 px-5 py-3 text-sm text-white shadow-lg shadow-cyan-500/20 hover:opacity-95">
-                <a href="#home">Back to Portfolio</a>
               </Button>
             </div>
           </div>
@@ -536,9 +533,6 @@ export default function MyStory() {
             <h2 className="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl" style={{ fontFamily: "'Sora', sans-serif" }}>
               The story is still being written...
             </h2>
-            <Button asChild className="rounded-full bg-gradient-to-r from-blue-500 via-cyan-500 to-sky-400 px-7 py-3 text-sm text-white shadow-lg shadow-cyan-500/20 hover:opacity-95">
-              <a href="#home">Back to Portfolio</a>
-            </Button>
           </div>
         </motion.footer>
       </div>

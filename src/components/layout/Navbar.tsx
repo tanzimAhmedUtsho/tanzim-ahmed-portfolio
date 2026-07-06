@@ -33,7 +33,7 @@ export default function Navbar() {
             WebkitTextFillColor: "transparent",
           }}
         >
-          T.Utsho
+          TA. Utsho
         </a>
 
         {/* Desktop Navigation */}
